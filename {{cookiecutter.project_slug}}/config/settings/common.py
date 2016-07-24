@@ -58,6 +58,7 @@ INSTALLED_APPS = [
 
     # Custom apps
     '{{cookiecutter.project_slug}}.users.apps.UsersConfig',
+    '{{cookiecutter.project_slug}}.docs.apps.DocsConfig',
 
     # Swagger docs
     'rest_framework_swagger',

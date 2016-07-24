@@ -33,7 +33,7 @@ urlpatterns = [
     url(r'^api/auth/registration/', include('rest_auth.registration.urls')),
 
     # Playground
-    url(r'^docs/', include('rest_framework_swagger.urls')),
+    url(r'^docs/', include('poserver.docs.urls')),
 
     # Custom endpoints
     url(r'^api/', include(router.urls, namespace='api')),
