@@ -1,0 +1,17 @@
+# Dev database
+db.sqlite3
+
+# Bytecode
+*.pyc
+
+# Virtualenv
+env
+
+# IntelliJ
+.idea
+
+# Docker
+data
+
+# Secrets
+.env
