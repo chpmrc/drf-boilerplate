@@ -4,7 +4,7 @@ coreapi==1.32.0
 decorator==4.0.10
 defusedxml==0.4.1
 Django==1.9.8
-django-allauth==0.26.0
+django-allauth==0.25.2
 django-environ==0.4.0
 django-filter==0.13.0
 django-rest-auth==0.7.0
